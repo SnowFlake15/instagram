@@ -1,0 +1,46 @@
+.logIn{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: helvetica;
+    width: 675px;
+    height: 530px;
+    background-color: white;
+    border: 2px solid #DBDBDB;
+    img{
+        width: 340px;
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 245px;
+        width: 520px;
+        margin: auto;
+        margin-top: 38px;
+        .inputs{
+            display: flex;
+            flex-direction: column;
+            height: 160px;
+            justify-content: space-between;
+            input{
+                width: 100%;
+                background-color: #FAFAFA;
+                border: 2px solid #DCDCDC;
+                color: #BABABA;
+                height: 74px;
+                border-radius: 5px;
+                font-size: 23px;
+                padding-left: 15px;
+                padding-top: 4px;
+                box-sizing: border-box;
+                font-weight: 100;
+                word-spacing: 2px;
+                letter-spacing: 0.1px;
+            }
+        }
+    }
+}

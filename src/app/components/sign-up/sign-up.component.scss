@@ -1,0 +1,20 @@
+.signUp{
+    margin: auto;
+    width: 675px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+    border: 2px solid #DBDBDB;
+    font-size: 27px;
+    font-family: helvetica;
+    word-spacing: 0px;
+    letter-spacing: 0.2px;
+    a {
+        color: #0E9BF6;
+        text-decoration: none; 
+        cursor: pointer;
+      }
+}

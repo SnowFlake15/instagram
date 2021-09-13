@@ -1,0 +1,10 @@
+<div class="logIn">
+  <img src="../../../assets/logo.png" alt="" />
+  <form [formGroup]="loginForm" action="">
+    <div class="inputs">
+      <input type="email" placeholder="Phone number, username, or email" #email id="email" formControlName="email" (keyup)="onChange(email)">
+      <input type="password" placeholder="Password" #password id="password" formControlName="password" (keyup)="onChange(password)">
+    </div>
+    <app-button type="submit" routerLink="/posts"  id="logInButton" disabled text="Log In"></app-button>
+  </form>
+</div>

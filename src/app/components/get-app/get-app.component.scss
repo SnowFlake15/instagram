@@ -1,0 +1,28 @@
+
+   .getApp{
+    width: 675px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    height: 155px;
+    font-family: helvetica;
+    .getAppP{
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 30px;
+    }
+    .stores{
+        margin: 0px auto;
+        img{
+            width: 260px;
+        }
+        #appStore{
+            margin-right: 20px;
+        }
+        
+    }
+    
+}
